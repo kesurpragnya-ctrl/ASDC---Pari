@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Discount Calculation</h1>
+
+    <script>
+
+        let productPrice = 8000;
+        let discountPercentage = 15;
+        let discountAmount = (productPrice * discountPercentage) / 100;
+        let finalPrice = productPrice - discountAmount;
+
+        console.log("Original Product Price: ₹" + productPrice);
+        console.log("Discount Amount (" + discountPercentage + "%): ₹" + discountAmount);
+        console.log("Final Price: ₹" + finalPrice);
+        
+    </script>
+</body>
+</html>

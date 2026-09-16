@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Percentage Calculator</h1>
+
+    <script>
+    
+
+        let english = 78;
+        let mathematics = 85;
+        let science = 72;
+        let computer = 90;
+        let hindi = 81;
+        let totalSubjects = 5;
+        let maxMarksPerSubject = 100;
+        let maxTotalMarks = totalSubjects * maxMarksPerSubject;
+        let totalMarks = english + mathematics + science + computer + hindi;
+        let percentage = (totalMarks / maxTotalMarks) * 100;
+
+
+        console.log("English: " + english);
+        console.log("Mathematics: " + mathematics);
+        console.log("Science: " + science);
+        console.log("Computer: " + computer);
+        console.log("Hindi: " + hindi);
+        console.log("Total Marks: " + totalMarks + " / " + maxTotalMarks);
+        console.log("Percentage: " + percentage + "%");
+        
+    </script>
+</body>
+</html>

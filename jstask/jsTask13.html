@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculate Price with Default Discount</h1>
+
+    <script>
+        function calculatePrice(price, discount = 10) {
+        let discountAmount = (price * discount) / 100;
+        return price - discountAmount;
+     }
+
+
+        console.log(calculatePrice(1000, 20));
+        console.log(calculatePrice(1000));
+    </script>
+</body>
+</html>

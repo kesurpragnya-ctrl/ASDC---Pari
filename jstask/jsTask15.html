@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Employee Information</h1>
+
+    <script>
+        function employeeInfo(name, department = "IT", salary = 30000) {
+        return name + " works in the " + department + " department and earns " + salary + " salary.";
+       }
+
+        console.log(employeeInfo("Amit", "HR", 45000));
+        console.log(employeeInfo("Pooja", "Finance"));
+        console.log(employeeInfo("Rahul"));
+    </script>
+</body>
+</html>
